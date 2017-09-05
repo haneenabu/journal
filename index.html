@@ -11,6 +11,32 @@
     <title>Journal JS</title>
   </head>
   <body>
-    
+    <div class="jumbotron">
+      <h1>Journal JS</h1>
+    </div>
+    <div id= "mySidenav" class="sidenav">
+      <h4>About Journal JS:</h4>
+      <br>
+      <h5><em>Created by: </em></h5>
+      <p>Haneen Abu-Khater</p>
+      <br>
+      <h5><em>GitHub Username: </em></h5>
+      <p>haneenabu</p>
+    </div>
+
+    <div class="container">
+      <h3>Welcome to Journal JS</h3>
+      <form id="entry">
+        <label for="title"> Enter your Journal Entry title: </label>
+        <input id="title" type="text">
+        <br><br>
+        <label for="body">Enter your Journal Entry details: </label><br>
+        <textarea class="form-control" id="body" rows="5"></textarea><br>
+        <button type="submit" class="btn">Submit</button>
+      </form>
+    </div>
+    <div class="container" id="result">
+      <p>The number of words in the body you entered is: </p>
+    </div>
   </body>
 </html>

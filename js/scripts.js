@@ -5,3 +5,5 @@ function Journal(journalEntry){
 Journal.prototype.wordCount = function(body) {
   return body.split(" ").length;
 };
+
+exports.journalModule = Journal;
