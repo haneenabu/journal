@@ -21,3 +21,6 @@ h4{
   text-align: left;
   /*padding-right: 40px;*/
 }
+#vowelResult{
+  display: none;
+}
